@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.71">
+<testcase classname="Acceptance testing to validate Search Cars Page is working." name="Validate Search Cars Page" time="40.16">
+<failure message="expected [$92.00] but found [$199.60]" type="java.lang.AssertionError"><![CDATA[Given I am on the Home Page "https://magento.softwaretestingboard.com/" of Magneto Website.passed
+When I Sign in my account...................................................passed
+When I click on search input and provide the "Gwyn Endurance Tee"...........passed
+And scroll down on the web page till the tee is visible.....................passed
+And select the tee..........................................................passed
+And I select size as medium.................................................passed
+And I select colour as green................................................passed
+And select quantity as "4"..................................................passed
+And click on AddtoCart button...............................................passed
+And click on shopping cart link.............................................passed
+And click on shipping tab...................................................passed
+And verify country is selected as "United Kingdom"..........................passed
+And Check cart total is "$92.00"............................................failed
+And Update the Quantity of Gwyn Endurance Tee Medium Green to "3"...........skipped
+When I click on search input and provide the "Gwyn Endurance Tee"...........skipped
+And scroll down on the web page till the tee is visible.....................skipped
+And select the tee..........................................................skipped
+And I select size as small..................................................skipped
+And I select colour as Yellow...............................................skipped
+And select quantity as "1"..................................................skipped
+And click on AddtoCart button...............................................skipped
+When I click on search input and provide the "Quest Lumaflex™ Band".........skipped
+And select the band.........................................................skipped
+And select quantity as "1"..................................................skipped
+And click on AddtoCart button...............................................skipped
+And click on shopping cart link.............................................skipped
+And click on shipping tab...................................................skipped
+And Check cart total is "$115.00"...........................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [$92.00] but found [$199.60]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.actions.AddToCartActions.verifyCartTotal(AddToCartActions.java:74)
+	at steps.AddToCartSteps.checkCartTotalIs(AddToCartSteps.java:83)
+	at ✽.Check cart total is "$92.00"(file:///Users/saurabhkumar/Desktop/Mitali-Workspace/MagnetoTest/src/test/resources/FeatureFiles/AddToCart.feature:21)
+]]></failure>
+</testcase>
+</testsuite>

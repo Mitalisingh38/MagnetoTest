@@ -1,0 +1,18 @@
+
+W
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8Ñ„öÃÌ0
+g
+java:S1128"ERemove this unused import 'org.openqa.selenium.chrome.ChromeOptions'.(ÿ¾Ïóüÿÿÿÿ8îµöÃÌ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(×­ƒš8ä„öÃÌ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ê˜³¦8å„öÃÌ0
+@
+java:S3010"#Remove this assignment of "driver".(Î°¸ó8ç„öÃÌ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(©·ñÏ8–…öÃÌ0
+{
+java:S2142;"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ÿ…öÃÌ0
+T
+java:S1135<"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8 …öÃÌ0
+K
+java:S1068".Remove this unused "waitDriver" private field.(“°õ8¡…öÃÌ0
